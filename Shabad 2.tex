@@ -1,0 +1,79 @@
+\documentclass[10pt]{article}
+\usepackage{fontspec}
+
+%  https://tug.org/TUGboat/tb39-2/tb122robertson-fontspec.pdf
+
+% Use Indian Language
+%0 https://goinggnu.wordpress.com/2013/06/10/indian-languages-in-latex/
+
+% Usage of Indian Languages
+% https://www.quora.com/I-cant-use-any-Indian-languages-within-LaTeX-What-should-I-do
+
+% Search Shabads from
+% https://www.searchgurbani.com/
+
+% Fonts and usage for latex
+% https://tex.stackexchange.com/questions/315617/how-can-i-use-a-gurumukhi-font-to-typeset-punjabi-with-xelatex-or-pdflatex
+
+% Table created using
+% https://www.tablesgenerator.com/
+
+% Fonts of own choice needed to be installed in the system if they're not already there. Even the bold ones separately. Only then it worked for me.
+
+\setmainfont{Bulara}
+\setsansfont{Bulara Demi-Bold}
+\setmonofont{Bulara Heavy}
+
+\begin{document}
+\begin{flushleft}
+{\large{\textsf {ਕਾਨੜਾ ਮਹਲਾ ੫ ॥} \\[0.2in]
+
+ਕੀਰਤਿ ਪ੍ਰਭ ਕੀ ਗਾਉ ਮੇਰੀ ਰਸਨਾਂ ॥ \\
+ਅਨਿਕ ਬਾਰ ਕਰਿ ਬੰਦਨ ਸੰਤਨ ਊਹਾਂ ਚਰਨ ਗੋਬਿੰਦ ਜੀ ਕੇ ਬਸਨਾ ॥੧॥ ਰਹਾਉ ॥ \\ [0.1in]
+
+ਅਨਿਕ ਭਾਂਤਿ ਕਰਿ ਦੁਆਰੁ ਨ ਪਾਵਉ ॥ \\
+ਹੋਇ ਕ੍ਰਿਪਾਲੁ ਤ ਹਰਿ ਹਰਿ ਧਿਆਵਉ ॥੧॥ \\ [0.1in]
+
+ਕੋਟਿ ਕਰਮ ਕਰਿ ਦੇਹ ਨ ਸੋਧਾ ॥ \\
+ਸਾਧਸੰਗਤਿ ਮਹਿ ਮਨੁ ਪਰਬੋਧਾ ॥੨॥ \\  [0.1in]
+
+ਤ੍ਰਿਸਨ ਨ ਬੂਝੀ ਬਹੁ ਰੰਗ ਮਾਇਆ ॥ \\
+ਨਾਮੁ ਲੈਤ ਸਰਬ ਸੁਖ ਪਾਇਆ ॥੩॥ \\  [0.1in]
+
+ਪਾਰਬ੍ਰਹਮ ਜਬ ਭਏ ਦਇਆਲ ॥ \\
+ਕਹੁ ਨਾਨਕ ਤਉ ਛੂਟੇ ਜੰਜਾਲ ॥੪॥੩॥ \\ [0.1in]
+}}
+\end{flushleft}
+
+
+\begin{table}[!htb]
+ {\renewcommand{\arraystretch}{1.5}%
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\large{\textsf {ਰਾਗ ਭੀਮ ਪਲਾਸੀ}}} \\ \hline
+\textsf {ਤਾਲ}     & ਕਹਿਰਵਾ 8 ਮਾਤਰਾ            \\ \hline
+\textsf{ਆਰੋਹ}   & ਨੁੀ ਸਾ ਗਾ ਮਾ ਪਾ ਨੁੀ ਸਾਂ   \\ \hline
+\textsf{ਅਵਰੋਹ}  & ਸਾਂ ਨੁੀ ਧਾ ਪਾ ਮਾ ਗਾ ਰੇ ਸਾ \\ \hline
+\end{tabular} } \quad
+\end{table}
+
+\begin{table}[!htb]
+{\renewcommand{\arraystretch}{1.5}%
+\begin{tabular}{llllllllllllllll}
+\hline
+\multicolumn{1}{|l|}{ਪਾ}          & \multicolumn{1}{l|}{ਨੁੀ}         & \multicolumn{1}{l|}{ਧਾ}           & \multicolumn{1}{l|}{ਪਾ}          & \multicolumn{1}{l|}{ਮਾ}           & \multicolumn{1}{l|}{ਪਾ}         & \multicolumn{1}{l|}{ਗਾ}          & \multicolumn{1}{l|}{ਮਾ}          & \multicolumn{1}{l|}{ਪਾ}           & \multicolumn{1}{l|}{ਪਾ}          & \multicolumn{1}{l|}{ਗੁਾ}         & \multicolumn{1}{l|}{ਮਾ}          & \multicolumn{1}{l|}{ਗੁਾ}         & \multicolumn{1}{l|}{ਰੇ}          & \multicolumn{1}{l|}{ਸਾ}           & \multicolumn{1}{l|}{ਸਾ}          \\ \hline
+\multicolumn{1}{|l|}{\textsf{ਕੀ}} & \multicolumn{1}{l|}{\textsf{--}} & \multicolumn{1}{l|}{\textsf{ਰ}}   & \multicolumn{1}{l|}{\textsf{ਤਿ}} & \multicolumn{1}{l|}{\textsf{ਪ੍ਰ}} & \multicolumn{1}{l|}{\textsf{ਭ}} & \multicolumn{1}{l|}{\textsf{ਕੀ}} & \multicolumn{1}{l|}{\textsf{--}} & \multicolumn{1}{l|}{\textsf{ਗਾ}}  & \multicolumn{1}{l|}{\textsf{ਉ}}  & \multicolumn{1}{l|}{\textsf{ਮੇ}} & \multicolumn{1}{l|}{\bf{ਰੀ}} & \multicolumn{1}{l|}{\textsf{ਰ}}  & \multicolumn{1}{l|}{\textsf{ਸ}}  & \multicolumn{1}{l|}{\textsf{ਨਾਂ}} & \multicolumn{1}{l|}{\textsf{--}} \\ \hline
+\multicolumn{16}{l}{}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{ਪਾ}          & \multicolumn{1}{l|}{ਪਾ}          & \multicolumn{1}{l|}{ਪਾ}           & \multicolumn{1}{l|}{ਪਾ}          & \multicolumn{1}{l|}{ਮਾ}           & \multicolumn{1}{l|}{ਪਾ}         & \multicolumn{1}{l|}{ਗੁਾ}         & \multicolumn{1}{l|}{ਮਾ}          & \multicolumn{1}{l|}{ਪਾ}           & \multicolumn{1}{l|}{ਪਾ}          & \multicolumn{1}{l|}{ਨੁੀ}         & \multicolumn{1}{l|}{ਨੁੀ}         & \multicolumn{1}{l|}{ਸਾਂ}         & \multicolumn{1}{l|}{ਸਾਂ}         & \multicolumn{1}{l|}{ਸਾਂ}          & \multicolumn{1}{l|}{ਸਾਂ}         \\ \hline
+\multicolumn{1}{|l|}{\textsf{ਅ}}  & \multicolumn{1}{l|}{\textsf{ਨਿ}} & \multicolumn{1}{l|}{\textsf{ਕ}}   & \multicolumn{1}{l|}{\textsf{ਬਾ}} & \multicolumn{1}{l|}{\textsf{--}}  & \multicolumn{1}{l|}{\textsf{ਰ}} & \multicolumn{1}{l|}{\textsf{ਕ}}  & \multicolumn{1}{l|}{\textsf{ਰਿ}} & \multicolumn{1}{l|}{\textsf{ਬੰ}}  & \multicolumn{1}{l|}{\textsf{--}} & \multicolumn{1}{l|}{\textsf{ਦ}}  & \multicolumn{1}{l|}{\textsf{ਨ}}  & \multicolumn{1}{l|}{\textsf{ਸੰ}} & \multicolumn{1}{l|}{\textsf{--}} & \multicolumn{1}{l|}{\textsf{ਤ}}   & \multicolumn{1}{l|}{\textsf{ਨ}}  \\ \hline
+\multicolumn{1}{|l|}{ਨੁੀ}         & \multicolumn{1}{l|}{ਨੁੀ}         & \multicolumn{1}{l|}{ਸਾਂ}          & \multicolumn{1}{l|}{ਗੁਾਂ}        & \multicolumn{1}{l|}{ਰੇਂ}          & \multicolumn{1}{l|}{ਰੇਂ}        & \multicolumn{1}{l|}{ਸਾਂ}         & \multicolumn{1}{l|}{ਸਾਂ}         & \multicolumn{1}{l|}{ਨੁੀ}          & \multicolumn{1}{l|}{ਨੁੀ}         & \multicolumn{1}{l|}{ਨੁੀ}         & \multicolumn{1}{l|}{ਨੁੀ}         & \multicolumn{1}{l|}{ਧਾ}          & \multicolumn{1}{l|}{ਧਾ}          & \multicolumn{1}{l|}{ਪਾ}           & \multicolumn{1}{l|}{ਪਾ}          \\ \hline
+\multicolumn{1}{|l|}{\textsf{ਊ}}  & \multicolumn{1}{l|}{\textsf{--}} & \multicolumn{1}{l|}{\textsf{ਹਾਂ}} & \multicolumn{1}{l|}{\textsf{--}} & \multicolumn{1}{l|}{\textsf{ਚ}}   & \multicolumn{1}{l|}{\textsf{ਰ}} & \multicolumn{1}{l|}{\textsf{ਨ}}  & \multicolumn{1}{l|}{\textsf{ਗੋ}} & \multicolumn{1}{l|}{\textsf{ਬਿੰ}} & \multicolumn{1}{l|}{\textsf{ਦ}}  & \multicolumn{1}{l|}{\textsf{ਜੀ}} & \multicolumn{1}{l|}{\textsf{ਕੇ}} & \multicolumn{1}{l|}{\textsf{ਬ}}  & \multicolumn{1}{l|}{\textsf{ਸ}}  & \multicolumn{1}{l|}{\textsf{ਨਾ}}  & \multicolumn{1}{l|}{\textsf{--}} \\ \hline
+\multicolumn{16}{l}{}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             \\ \hline
+\multicolumn{1}{|l|}{ਪਾ}          & \multicolumn{1}{l|}{ਪਾ}          & \multicolumn{1}{l|}{ਪਾ}           & \multicolumn{1}{l|}{ਪਾ}          & \multicolumn{1}{l|}{ਸਾ}           & \multicolumn{1}{l|}{ਪਾ}         & \multicolumn{1}{l|}{ਗੁਾ}         & \multicolumn{1}{l|}{ਮਾ}          & \multicolumn{1}{l|}{ਪਾ}           & \multicolumn{1}{l|}{ਪਾ}          & \multicolumn{1}{l|}{ਨੁੀ}         & \multicolumn{1}{l|}{ਨੁੀ}         & \multicolumn{1}{l|}{ਸਾਂ}         & \multicolumn{1}{l|}{ਸਾਂ}         & \multicolumn{1}{l|}{ਸਾਂ}          & \multicolumn{1}{l|}{ਸਾਂ}         \\ \hline
+\multicolumn{1}{|l|}{\textsf{ਗਾ}} & \multicolumn{1}{l|}{\textsf{ਉ}}  & \multicolumn{1}{l|}{\textsf{ਮੇ}}  & \multicolumn{1}{l|}{\textsf{ਰੀ}} & \multicolumn{1}{l|}{\textsf{ਰ}}   & \multicolumn{1}{l|}{\textsf{ਸ}} & \multicolumn{1}{l|}{\textsf{ਨਾ}} & \multicolumn{1}{l|}{\textsf{--}} & \multicolumn{1}{l|}{\textsf{ਗਾ}}  & \multicolumn{1}{l|}{\textsf{ਉ}}  & \multicolumn{1}{l|}{\textsf{ਮੇ}} & \multicolumn{1}{l|}{\textsf{ਰੀ}} & \multicolumn{1}{l|}{\textsf{ਰ}}  & \multicolumn{1}{l|}{\textsf{ਸ}}  & \multicolumn{1}{l|}{\textsf{ਨਾ}}  & \multicolumn{1}{l|}{\textsf{--}} \\ \hline
+\end{tabular} } \quad
+\end{table}
+
+
+\end{document}
+
